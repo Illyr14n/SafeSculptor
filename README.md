@@ -5,6 +5,7 @@ Introducing a Simple Password Generator – a user-friendly tool designed to ass
 
 ```
 git clone https://github.com/Illyr14n/SafeSculptor
-
+cd SafeSculptor/
+python3 SafeSculptor.py 
 
 ```
