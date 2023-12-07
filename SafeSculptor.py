@@ -79,14 +79,18 @@ def generate_password_lists(name, surname, middlename, day, month, year, pets, k
     ]
 
     
-    pattern_combinations = [
-        name + '123',
-        surname + '123',
-        year + name,
-        year + surname,
-        pets + '123',
-        team + year,
-    ]
+  pattern_combinations = [
+      name + '123',
+      surname + '123',
+      year + name,
+      year + surname,
+      pets + '123',
+      team + year,
+      name + '2023',
+      surname + 'pass',
+      pets + 'abc',
+      team + '1234',
+  ]
 
     
     unique_combinations = set(itertools.chain(basic_components, separator_combinations, date_month_year_combinations, pattern_combinations))
